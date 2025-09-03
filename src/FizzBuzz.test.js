@@ -13,4 +13,7 @@ describe('Ejemplo de FizzBuzz', () => {
   it('debería retornar Buzz', () => {
     expect(ConvertirFizzBuzz(5)).toEqual('Buzz');
   });
+    it('debería retornar Buzz si es igual a 5', () => {
+    expect(ConvertirFizzBuzz(5)).toEqual('Buzz');
+  });
 });
