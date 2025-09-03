@@ -27,3 +27,13 @@ export function ConvertirFizzBuzz(n) {
   }
   return `${n}`;
 }
+export function generarCadenaFizzBuzz(n) {
+  let resultado = '';
+  for (let i = 1; i <= n; i++) {
+    resultado += `${ConvertirFizzBuzz(i)}`;
+    if (i < n) {
+      resultado += ' ';
+    }
+  }
+  return resultado;
+}

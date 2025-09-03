@@ -20,4 +20,7 @@ describe('Ejemplo de FizzBuzz', () => {
   it('debería retornar FizzBuzz si es múltiplo de 3 y de 5', () => {
     expect(ConvertirFizzBuzz(15)).toEqual('FizzBuzz');
   });
+  it('debería retornar la cadena de números según la lógica FizzBuzz', () => {
+    expect(generarCadenaFizzBuzz(5)).toEqual('1 2 Fizz 4 Buzz');
+  });
 });
