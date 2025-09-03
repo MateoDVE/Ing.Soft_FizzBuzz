@@ -1,15 +1,13 @@
-import sumar from "./sumador";
+import { generarCadenaFizzBuzz } from './FizzBuzz';
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const inputNumero = document.querySelector('#numero');
+const divResultado = document.querySelector('#resultado-div');
+const formulario = document.querySelector('#fizzbuzz-form');
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+formulario.addEventListener('submit', (evento) => {
+  evento.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const numero = Number.parseInt(inputNumero.value);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  divResultado.innerHTML = `<p> ${generarCadenaFizzBuzz(numero)} </p>`;
 });
