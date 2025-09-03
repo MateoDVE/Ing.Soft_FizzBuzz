@@ -10,6 +10,9 @@ function EsMultiploDe3(n) {
 function EsMultiploDe5(n) {
   return n % 5 === 0;
 }
+function EsMultiploDe3y5(n) {
+  return EsMultiploDe3(n) && EsMultiploDe5(n);
+}
 
 export function ConvertirFizzBuzz(n) {
   if(EsValor1(n)) {
@@ -20,6 +23,9 @@ export function ConvertirFizzBuzz(n) {
   }
   if (EsMultiploDe5(n)) {
     return 'Buzz';
+  }
+  if (EsMultiploDe3y5(n)) {
+    return 'FizzBuzz';
   }
   return `${n}`;
 }

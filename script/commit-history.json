@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a5ab2d61c28336a77ce6c6abc8efdb4736e1b62d",
     "author": "Mateo_DVE",
     "commit": {
       "date": "2025-09-03T03:41:40.000Z",
       "message": "prueba multiplos de 5 buzz",
-      "url": "https://github.com/MateoDVE/Ing.Soft_FizzBuzz/commit/HEAD"
+      "url": "https://github.com/MateoDVE/Ing.Soft_FizzBuzz/commit/a5ab2d61c28336a77ce6c6abc8efdb4736e1b62d"
     },
     "stats": {
       "total": 13,
@@ -72,6 +72,25 @@
     },
     "coverage": 90,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo_DVE",
+    "commit": {
+      "date": "2025-09-03T03:46:05.000Z",
+      "message": "cuando es igual a 3",
+      "url": "https://github.com/MateoDVE/Ing.Soft_FizzBuzz/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2025-09-03"
+    },
+    "coverage": 69.23,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
