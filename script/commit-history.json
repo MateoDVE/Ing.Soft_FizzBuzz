@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "53faf8abb0ffe988c5671ec31508532e5d281947",
     "author": "Mateo_DVE",
     "commit": {
       "date": "2025-09-03T03:46:50.000Z",
       "message": "es igual a 5",
-      "url": "https://github.com/MateoDVE/Ing.Soft_FizzBuzz/commit/HEAD"
+      "url": "https://github.com/MateoDVE/Ing.Soft_FizzBuzz/commit/53faf8abb0ffe988c5671ec31508532e5d281947"
     },
     "stats": {
       "total": 3,
@@ -110,6 +110,25 @@
     },
     "coverage": 69.23,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo_DVE",
+    "commit": {
+      "date": "2025-09-03T03:48:31.000Z",
+      "message": "fizzbuzz cuando retorna 3 y 5",
+      "url": "https://github.com/MateoDVE/Ing.Soft_FizzBuzz/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 7,
+      "deletions": 5,
+      "date": "2025-09-03"
+    },
+    "coverage": 90.91,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
